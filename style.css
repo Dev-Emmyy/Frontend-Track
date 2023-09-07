@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: fixed;
+}
+
+.info_section {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user_img img {
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+
+.user_name {
+    font-weight: bolder;
+}
+
+.current_time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.current_time div p {
+    font-size: 17px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+
+.current_time>* {
+    margin-right: 10px;
+}
+
+.my_track {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.git_link {
+    background-color: black;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.git_link a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.git_link:hover {
+    background-color: #fff;
+    transition: 1s ease;
+}
+
+.git_link a:hover {
+    color: black;
+    transition: 1s ease;
+}
