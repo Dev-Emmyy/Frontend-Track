@@ -9,37 +9,34 @@
 
 <body>
     <section>
-        <div>
-            <video src="./images/BG.mp4" autoplay loop muted width="100%"> </video>
-        </div>
-        
-        <div class="info_section">
-            <div class="user_info">
-                <div class="user_img">
-                    <img data-testid="slackDisplayImage" src="./images/Dp.jpg" alt="Emmanuel Ugochukwu" width="70px">
+        <div class="main_section">
+            <div class="info_section">
+                <div class="user_info">
+                    <div class="user_img">
+                        <img data-testid="slackDisplayImage" src="./images/Dp.jpg" alt="Emmanuel Ugochukwu" width="70px">
+                    </div>
+                    <div class="user_name">
+                        <h1 data-testid="slackUserName">Emmanuel Ugochukwu</h1>
+                    </div>
                 </div>
-                <div class="user_name">
-                    <h1 data-testid="slackUserName">Emmanuel Ugochukwu</h1>
+                
+                <div class="current_time">
+                    <div>
+                        <p data-testid="currentUTCTime" id="utcTime"></p>
+                    </div>
+                    <div>
+                        <p data-testid="currentDayOfTheWeek" id="dayOfWeek"></p>
+                    </div>
+                </div>
+                
+                <div class="my_track">
+                    <p data-testid="myTrack">Frontend Developer</p>
+                </div>
+                
+                <div class="git_link">
+                    <a href="">GitHub SourceCode</a>
                 </div>
             </div>
-
-            <div class="current_time">
-                <div>
-                    <p data-testid="currentUTCTime" id="utcTime"></p>
-                </div>
-                <div>
-                    <p data-testid="currentDayOfTheWeek" id="dayOfWeek"></p>
-                </div>
-            </div>
-
-            <div class="my_track">
-                <p data-testid="myTrack">Frontend Developer</p>
-            </div>
-
-            <div class="git_link">
-                <a href="">GitHub SourceCode</a>
-            </div>
-            
         </div>
     </section>
 
